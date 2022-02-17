@@ -88,8 +88,8 @@ def main(args):
             print(len(sortedWordDict))
             print(i)
             break
-        word = input('input:')
-        color = input('color:')
+        word = input('input(Ex-audio):')
+        color = input('color(Ex-gbbyb):')
         i+=1
         subSetWords=getSubset(subSetWords, word, color)
 
